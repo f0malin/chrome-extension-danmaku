@@ -17,8 +17,9 @@
     },
     "content_scripts": [
         {
-            "matches": ["http://kids.lekan.com/"],
-            "js": ["jquery-2.1.0.min.js", "amplify.min.js", "inject1.js"]
+            "matches": ["http://kids.lekan.com/", "http://video.sina.com.cn/l/pl/sportstv/*"],
+            "js": ["jquery-2.1.0.min.js", "amplify.min.js", "ccl/CommentCore.js", "inject1.js"],
+            "css": ["ccl/base.css"]
         }
     ],
     "background": {
