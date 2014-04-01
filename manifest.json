@@ -2,8 +2,8 @@
     "manifest_version": 2,
     
     "name": "Bullet subtitle",
-    "description": "Add bullet subtitle function to any web page.",
-    "version": "1.0",
+    "description": "Add bullet subtitle(streaming comments) function to any web page.",
+    "version": "1.1",
 
     "icons": {
         "16":"icon16.png",
@@ -27,8 +27,6 @@
         "persistent": false
     },
     "permissions": [
+        "http://www.hukaa.com/"
     ]
-    /* deprecated 
-    "content_security_policy": "script-src 'self'; object-src 'self' https://data.gtimg.cn"
-    */
 }

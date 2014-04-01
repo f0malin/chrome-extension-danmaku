@@ -169,8 +169,10 @@ function switchDiv(state) {
         j("#chrome_danmu_outter").remove();
         j("#chrome_danmu_show").remove();
         clearInterval(intervalId);
-        cm.stopTimer();
-        cm = null;
+        if (cm) {
+            cm.stopTimer();
+            cm = null;
+        }
     }
 }
 
